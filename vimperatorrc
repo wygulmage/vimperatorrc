@@ -33,6 +33,7 @@ highlight WarningMsg color: #dc322f;  background: #002b36;  font-size: 12pt;
 " Keys:
 noremap y Y
 noremap Y y
+noremap ? *
 
 " Plugins:
 set mainecoon=amu
@@ -47,7 +48,7 @@ javascript <<EOF
 if liberator.has("unix")
    liberator.execute("source! /home/keith/.vimperatorrc.local");
 else
-   liberator.execute("source! \"C:\\\\Users\\\\kawygant\\\\_vimperatorrc.local");
+   liberator.execute("source! \"C:\\\\Users\\\\kawygant\\\\_vimperatorrc.local\"");
 EOF
 
 " vim: set ft=vimperator:
